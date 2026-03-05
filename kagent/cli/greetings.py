@@ -75,7 +75,15 @@ def start():
 
     console.print("✨ [bold green]kagent ready![/bold green]\n")
 
-    console.print("[yellow]Start typing your prompt...[/yellow]")
+    
+    if mode == "ask":
+        console.print("[yellow]Start typing your question...[/yellow]")
+
+    elif mode == "code":
+        console.print("[yellow]Start typing your prompt...[/yellow]")
+
+    elif mode == "brainstorm":
+        console.print("[yellow]Start typing your idea...[/yellow]")
 
 
 if __name__ == "__main__":
