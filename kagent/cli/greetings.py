@@ -74,7 +74,7 @@ def start():
 
     console.print("✨ [bold green]kagent ready![/bold green]\n")
 
-    # Custom prompt based on mode
+
     if mode == "ask":
         console.print("[yellow]Start typing your question...[/yellow]")
 
